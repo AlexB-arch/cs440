@@ -105,3 +105,26 @@ a {
     color-scheme: dark;
   }
 }
+
+.button-primary-enabled {
+  /* Property 1=Enabled */
+  
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    isolation: isolate;
+  
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    left: 16px;
+    top: 20.5px;
+  
+    /* material-theme/ref/primary/primary70 */
+    background: #3BC500;
+    border-radius: 5px;
+}
