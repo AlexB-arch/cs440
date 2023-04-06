@@ -1,6 +1,6 @@
 function PrimaryButtonEnabled() {
   return (
-    <button className="button-primary-enabled">
+    <button className="button button-primary-enabled">
       	Primary
     </button>
   );
